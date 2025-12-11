@@ -1,0 +1,19 @@
+{
+  "name": "nodews",
+  "version": "1.0.0",
+  "description": "Nodejs-server",
+  "main": "index.min.js",
+  "private": false,
+  "scripts": {
+    "start": "node index.min.js",
+    "encrypted1": "node secret-hug-direct.js",
+    "encrypted2": "node secret-hug-cf.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.2",
+    "axios": "^1.12.2"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
